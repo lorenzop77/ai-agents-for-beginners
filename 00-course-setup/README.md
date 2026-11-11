@@ -29,13 +29,13 @@ Replace `<your-username>` in the below commands with your fork URL (or the upstr
 To clone only the latest commit history (small download):
 
 ```bash
-git clone --depth 1 https://github.com/<your-username>/ai-agents-for-beginners.git
+git clone --depth 1 https://github.com/lorenzop77/ai-agents-for-beginners.git
 ```
 
 To clone a specific branch:
 
 ```bash
-git clone --depth 1 --branch <branch-name> https://github.com/<your-username>/ai-agents-for-beginners.git
+git clone --depth 1 --branch <branch-name> https://github.com/lorenzop77/ai-agents-for-beginners.git
 ```
 
 #### Partial (sparse) clone — minimal blobs + only selected folders
@@ -43,7 +43,7 @@ git clone --depth 1 --branch <branch-name> https://github.com/<your-username>/ai
 This uses partial clone and sparse-checkout (requires Git 2.25+ and recommended modern Git with partial clone support):
 
 ```bash
-git clone --depth 1 --filter=blob:none --sparse https://github.com/<your-username>/ai-agents-for-beginners.git
+git clone --depth 1 --filter=blob:none --sparse https://github.com/lorenzop77/ai-agents-for-beginners.git
 ```
 
 Traverse into the repo folder:
